@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP3002-I/SN
+#
+DEF MCP3002-I/SN U 0 40 Y Y 1 L N
+F0 "U" -182 608 50 H V L CNN
+F1 "MCP3002-I/SN" -251 -975 50 H V L CNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L CNN
+F3 "MCP3002-I/SN" 0 0 50 H I L CNN "MP"
+F4 "Good" 0 0 50 H I L CNN "Availability"
+F5 "Dual Channel SPI Serial Interface 2.7V 10-Bit A/D Converter SMT - SOIC - 8" 0 0 50 H I L CNN "Description"
+F6 "Microchip" 0 0 50 H I L CNN "MF"
+F7 "1.59 USD" 0 0 50 H I L CNN "Price"
+F8 "SOIC-8 Microchip" 0 0 50 H I L CNN "Package"
+DRAW
+P 2 0 0 6 -600 500 -600 -800 N
+P 2 0 0 6 -600 -800 600 -800 N
+P 2 0 0 6 600 -800 600 500 N
+P 2 0 0 6 600 500 -600 500 N
+X VDD/VREF 8 -800 300 200 R 40 40 0 0 I 
+X CLK 7 -800 100 200 R 40 40 0 0 I 
+X ~CS/SHDN 1 -800 0 200 R 40 40 0 0 I 
+X DIN 5 -800 -100 200 R 40 40 0 0 I 
+X CH0 2 -800 -300 200 R 40 40 0 0 I 
+X CH1 3 -800 -400 200 R 40 40 0 0 I 
+X VSS 4 -800 -600 200 R 40 40 0 0 I 
+X DOUT 6 800 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
