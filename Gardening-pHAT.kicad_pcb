@@ -96,7 +96,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory plots/rev1.0-20170407/))
+      (outputdirectory plots/rev-1.0/))
   )
 
   (net 0 "")
