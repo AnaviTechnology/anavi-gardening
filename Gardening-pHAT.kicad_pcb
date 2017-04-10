@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4+dfsg1-stable)
 
   (general
-    (links 70)
-    (no_connects 1)
-    (area 148.451099 74.953599 213.551101 105.053601)
+    (links 71)
+    (no_connects 2)
+    (area 136.817429 66.3 225.182572 106.680001)
     (thickness 1.6)
     (drawings 32)
     (tracks 262)
@@ -231,7 +231,8 @@
       (net 3 +5V))
     (pad 3 thru_hole oval (at 0 2.54 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 7 "Net-(R6-Pad2)"))
-    (pad 4 thru_hole oval (at 2.54 2.54 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 4 thru_hole oval (at 2.54 2.54 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 3 +5V))
     (pad 5 thru_hole oval (at 0 5.08 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 8 "Net-(R7-Pad2)"))
     (pad 6 thru_hole oval (at 2.54 5.08 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
