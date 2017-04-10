@@ -923,7 +923,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 58EB49F3) (tstamp 58EB47F8)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 58EB7433) (tstamp 58EB47F8)
     (at 177.8635 89.535 90)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -931,7 +931,7 @@
     (fp_text reference UART (at -2.667 4.0005 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X04 (at 0 -3.1 90) (layer F.Fab)
+    (fp_text value CONN_01X04 (at 0 -3.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 9.4) (layer F.CrtYd) (width 0.05))
