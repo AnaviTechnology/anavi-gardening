@@ -537,10 +537,6 @@ F 3 "" H 5900 3750 50  0000 C CNN
 	1    5900 3750
 	-1   0    0    1   
 $EndComp
-Text Label 5500 3550 0    39   ~ 0
-GPIO5
-Text Label 5500 3650 0    39   ~ 0
-GPIO6
 Wire Wire Line
 	950  3500 800  3500
 Wire Wire Line
@@ -682,12 +678,6 @@ Wire Wire Line
 	6200 3650 6800 3650
 Connection ~ 5900 3450
 Wire Wire Line
-	5500 3550 5350 3550
-Wire Wire Line
-	5500 3650 5350 3650
-Text Label 7100 3100 0    39   ~ 0
-GPIO5
-Wire Wire Line
 	800  3600 800  3700
 Wire Wire Line
 	800  3700 800  3800
@@ -772,8 +762,6 @@ Wire Wire Line
 	5400 4650 5400 4800
 Wire Wire Line
 	5400 4800 5550 4800
-Text Label 7100 2700 0    39   ~ 0
-GPIO6
 $Comp
 L Gardening-pHAT-rescue:GND #PWR026
 U 1 1 58F9E966
@@ -785,8 +773,28 @@ F 3 "" H 7350 2800 50  0000 C CNN
 	1    7350 2800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7100 2700 7350 2700
-Wire Wire Line
-	7100 3100 7350 3100
+NoConn ~ 5350 3550
+NoConn ~ 5350 3650
+$Comp
+L Gardening-pHAT-rescue:+5V #PWR0102
+U 1 1 60BA6F51
+P 7350 2700
+F 0 "#PWR0102" H 7350 2550 50  0001 C CNN
+F 1 "+5V" V 7365 2828 50  0000 L CNN
+F 2 "" H 7350 2700 50  0000 C CNN
+F 3 "" H 7350 2700 50  0000 C CNN
+	1    7350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Gardening-pHAT-rescue:+5V #PWR0103
+U 1 1 60BAC5CE
+P 7350 3100
+F 0 "#PWR0103" H 7350 2950 50  0001 C CNN
+F 1 "+5V" V 7365 3228 50  0000 L CNN
+F 2 "" H 7350 3100 50  0000 C CNN
+F 3 "" H 7350 3100 50  0000 C CNN
+	1    7350 3100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
