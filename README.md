@@ -18,6 +18,34 @@ For more details please visit https://anavi.technology/ and https://www.crowdsup
 * Follows uHAT mechanical specification with a valid ID EEPROM
 * Excellent software support, documentation, and open source examples
 
+# Safety Guide
+
+## English
+
+### Warnings
+
+* This product shall only be connected to a compatible Raspberry Pi.
+      
+### Instructions for safe use
+
+* Do not expose this product to water or moisture, and do not place it on a conductive surface whilst in operation.
+* Do not expose this product to heat from any source; it is designed for reliable operation at normal room temperatures.
+* Take care while handling this product to avoid mechanical or electrical damage to the printed circuit board and connectors.
+* Avoid handling this product while it is powered. Only handle by the edges to minimize the risk of electrostatic discharge damage.
+      
+## Deutsch
+
+### Achtung
+
+* Dieses Produkt darf nur mit einem kompatiblen Raspberry Pi verbunden werden.
+      
+### Anweisungen für die sichere Verwendung
+
+* Setzen Sie dieses Produkt nicht Wasser oder Feuchtigkeit aus und stellen Sie es während des Betriebs nicht auf eine leitfähige Oberfläche.
+* Setzen Sie dieses Produkt keiner Wärmequelle aus. Es ist für einen zuverlässigen Betrieb bei normalen Raumtemperaturen ausgelegt.
+* Seien Sie vorsichtig beim Umgang mit diesem Produkt, um mechanische oder elektrische Schäden an der Leiterplatte und den Anschlüssen zu vermeiden.
+* Vermeiden Sie die Handhabung dieses Produkts während der Stromversorgung. Produkt nur an den Rändern anfassen, um das Risiko von elektrostatischen Entladungsschäden zu minimieren.
+
 # License
 
 The project is released under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
